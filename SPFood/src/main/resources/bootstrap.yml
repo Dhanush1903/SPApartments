@@ -1,0 +1,21 @@
+
+server:
+  port: 8003
+
+
+spring:
+  application:
+    name: SPFood
+  
+  cloud:
+    consul:
+      config:
+        enabled: true
+        prefix: config
+        defaultContext: application
+        profileSeparator: '::'
+        data-key: data
+        format: YAML
+        
+        
+        

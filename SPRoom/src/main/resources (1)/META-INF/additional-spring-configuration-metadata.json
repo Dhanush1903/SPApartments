@@ -1,0 +1,17 @@
+{"properties": [
+  {
+    "name": "spring.cloud.consul.config.enabled",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.cloud.consul.config.enabled'"
+  },
+  {
+    "name": "spring.cloud.consul.config.enabled",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.cloud.consul.config.enabled'"
+  },
+  {
+    "name": "spring.cloud.consul.config.prefix",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.cloud.consul.config.prefix'"
+  }
+]}

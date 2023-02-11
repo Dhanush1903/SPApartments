@@ -1,0 +1,11 @@
+server:
+ port: 9000
+ 
+spring:
+ cloud:
+  consul:
+   config:
+    enabled: true 
+ application:
+    name: APIGATEWAY
+    hostname: localhost

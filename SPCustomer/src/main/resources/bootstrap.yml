@@ -1,0 +1,21 @@
+
+server:
+  port: 8002
+
+
+spring:
+  application:
+    name: SPCustomer
+  
+  cloud:
+    consul:
+      config:
+        enabled: true
+        prefix: config
+        defaultContext: application
+        profileSeparator: '::'
+        data-key: data
+        format: YAML
+        
+        
+        

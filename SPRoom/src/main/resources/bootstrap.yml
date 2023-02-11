@@ -1,0 +1,25 @@
+
+server:
+  port: 8004
+
+
+spring:
+  application:
+    name: SPRoom
+    
+    
+
+
+  
+  cloud:
+    consul:
+      config:
+        enabled: true
+        prefix: config
+        defaultContext: application
+        profileSeparator: '::'
+        data-key: data
+        format: YAML
+    
+      
+        
